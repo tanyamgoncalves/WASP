@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    		<title> WASP: Web Audio Sound Programming </title>
+   <body id="body"> 
+        <link rel="stylesheet" type="text/css" href="style.css">
+    	</head>
+        
+        <p id="title">WASP: Web Audio Sound Programming</p>
+            
+    	<script src="wasp.js">
+    </script>
+    
+    <div>
+        <input type="text" id="commandBox" onkeypress="if (event.keyCode == 13) document.getElementById('submitButton').click()"/>
+        
+        <input type="button" id="submitButton" onclick="parse()"/>
+
+    </div>
+    
+    <br> 
+        <textarea id = "consoleBox"></textarea> 
+    </br>
+
+    
+    
+
+    </body>
+</html>
